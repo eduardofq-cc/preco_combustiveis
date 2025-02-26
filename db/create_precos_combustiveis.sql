@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS precos_combustiveis (
+  regiao_sigla CHAR(2),
+  estado_sigla CHAR(2), 
+  municipio VARCHAR,
+  revenda VARCHAR,
+  revenda_cnpj INTEGER,
+  endereco_rua_nome VARCHAR,
+  endereco_rua_numero INTEGER,
+  endereco_complemento VARCHAR,
+  endereco_bairro VARCHAR,
+  endereco_cep INTEGER,
+  produto VARCHAR,
+  coleta_data DATE,
+  valor_venda DECIMAL,
+  valor_compra DECIMAL,
+  medida_unidade VARCHAR,
+  bandeira VARCHAR);
